@@ -1,68 +1,9 @@
 {
-  "get-order": {
-    "infos": [],
-    "errors": [
-        "Ordine già pagato"
-    ],
-    "warnings": [],
-    "status": 0,
-    "data": {
-        "orderId": 2200120099,
-        "extWarehouseId": "39001",
-        "deliveredGrossTotal": 4.79,
-        "fidelityCard": "0223362010214",
-        "orderType": "OR",
-        "paymentType": {
-            "extCode": "cod",
-            "label": "Consegna"
-        },
-        "paymentStatus": {
-            "extCode": "1",
-            "label": "Pagato"
-        },
-        "orderBeanStatus": {
-            "extCode": "16",
-            "label": "Consegnato"
-        },
-        "orderItems": [
-            {
-                "extOrderItemId": "217",
-                "productCode": "2729843",
-                "productDescr": "Yogurt I Cremosi CONAD bianco naturale latte italiano 500 g",
-                "deliveredQuantity": 1.0,
-                "deliveredWeight": 0.0,
-                "discount": 0.0,
-                "unitPrice": 1.25,
-                "deliveredGrossTotal": 1.25,
-                "sellingUnitMeasure": "PZ"
-            },
-            {
-                "extOrderItemId": "218",
-                "productCode": "5396215",
-                "productDescr": "Yogurt Alimentum CONAD senza lattosio latte italiano pesca albicocca conf. 125 g x 2 pezzi",
-                "deliveredQuantity": 2.0,
-                "deliveredWeight": 0.0,
-                "discount": 0.0,
-                "unitPrice": 0.78,
-                "deliveredGrossTotal": 1.56,
-                "sellingUnitMeasure": "PZ"
-            },
-            {
-                "extOrderItemId": "219",
-                "productCode": "4640503",
-                "productDescr": "Yogurt cremoso Kefir Milk bianco dolce 150 g",
-                "deliveredQuantity": 2.0,
-                "deliveredWeight": 0.0,
-                "discount": 0.0,
-                "unitPrice": 0.99,
-                "deliveredGrossTotal": 1.98,
-                "sellingUnitMeasure": "PZ"
-            }
-        ],
-        "conadCollectionList": [],
-        "coupons": []
-    }
-},
+  "get-order": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
   "confirm-payment": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
