@@ -1,7 +1,6 @@
 {
   "get-order": {
-    "id": 1, 
-    "title": "Post 1" 
+    "id": 1
   },
   "confirm-payment": [
     { "id": 1, "body": "some comment", "postId": 1 },
